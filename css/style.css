@@ -6,9 +6,9 @@
 
 [class*="col-"]{
   /* regole di debug */
-  background-color: pink;
+  /* background-color: pink;
   height: 50px;
-  border:1px solid black;
+  border:1px solid black; */
 }
 
 .row_nav img{
@@ -20,4 +20,11 @@
   display: inline-block;
   line-height: 45px;
   padding: 0 5px;
+}
+.row_jumbo{
+  background-image: url("../img/jumbo.svg");
+  background-size: cover;
+}
+.row_jumbo h2,p {
+  color: white;
 }
