@@ -3,18 +3,25 @@
   <head>
     <meta charset="utf-8">
     <!-- Latest compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Digital Ocean</title>
   </head>
   <body>
     <header>
+      <!-- contenitore della navbar -->
       <div class="container">
         <div class="row row_nav">
-          <div class="col-xs-12 col-sm-4 col-md-4">
-            <img src="img/logo.png" alt="">
+          <!-- prima colonna con il logo -->
+          <div class="text-left col-xs-12 col-sm-4 col-md-3">
+            <div class="div_img">
+              <img src="img/logo.png" alt="">
+            </div>
           </div>
-          <div class="text-left col-xs-12 col-sm-4 col-md-4">
+
+          <!-- seconda colonna con i link -->
+          <div class="text-left col-xs-12 col-sm-4 col-sm-offset-1 col-md-4">
             <ul>
               <li><a href="#">Product</a></li>
               <li><a href="#">Customers</a></li>
@@ -22,8 +29,8 @@
               <li><a href="#">Pricing</a></li>
             </ul>
           </div>
-
-          <div class="col-xs-12 col-sm-4 col-md-4">
+          <!-- terza colonna con i link -->
+          <div class="text-right col-xs-12 col-sm-4  col-md-4">
             <ul>
               <li><a href="#">Doc</a></li>
               <li><a href="#">Support</a></li>
@@ -33,68 +40,86 @@
           </div>
         </div>
       </div>
-
+        <!-- contenitore del jumbotron -->
       <div class="container-fluid">
         <div class="row row_jumbo">
+            <!-- prima colonna con titolo e paragrafo -->
           <div class="text-center col-xs-12 col-sm-4 col-sm-offset-2">
             <h2>The Simplest Cloud Platform for devolopers & teams </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
+            <!-- seconda colonna con due titoli e il form -->
           <div class=" text-center col-xs-12 col-sm-4">
-            <h3>Deploy in seconds.</h3>
-            <h3>Get Started Now</h3>
-
-            <form>
-              <div class="form-group row">
-                <div class="text-center col-sm-10">
-                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            <div class="cont_form">
+              <h3>Deploy in seconds.</h3>
+              <h3>Get Started Now</h3>
+              <!-- form della compilazione -->
+              <form>
+                <div class="form-group row">
+                  <div class="text-center col-sm-8 col-sm-offset-2">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
                 </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="text-center col-sm-10">
-                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                <div class="form-group row">
+                  <div class="text-center col-sm-8 col-sm-offset-2">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                  </div>
                 </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-sm-10">
-                  <button type="submit" class="btn btn-primary">Create your account</button>
+                <div class="form-group row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <button type="submit" class="btn btn-primary">Create your account</button>
+                  </div>
                 </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-sm-10">
-                  <button type="submit" class="btn btn-primary">Sign up with google</button>
+                <div class="form-group row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <button type="submit" class="btn btn-primary">Sign up with google</button>
+                  </div>
                 </div>
-              </div>
-            </form>
-
+                <span>
+                  By signing up you agree to the <a href="#">Terms of Service.</a>
+                </span>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-
-
+      <!-- contenitore degli sponsor -->
       <div class="container-fluid">
-        <div class="row">
+        <div class="row row_sponsor">
+          <!-- colonne sponsor -->
           <div class="text-center col-xs-12">
             <h4>Innovative businesses trust DigitalOcean</h4>
           </div>
-          <div class="text-center col-xs-6 col-sm-1 col-sm-offset-3">
-
+          <div class="text-center col-xs-6 col-sm-2 col-md-1 col-lg-1 col-md-offset-3">
+            <div class="div_img">
+              <img src="img/docker.svg" alt="">
+            </div>
           </div>
-          <div class="text-center col-xs-6 col-sm-1">
 
+          <div class="text-center col-xs-6 col-sm-2 col-md-1 col-lg-1">
+            <div class="div_img">
+              <img src="img/gitlab.svg" alt="">
+            </div>
           </div>
-          <div class="text-center col-xs-6 col-sm-1">
-
+          <div class="text-center col-xs-6 col-sm-2 col-md-1 col-lg-1">
+            <div class="div_img">
+              <img src="img/slack.svg" alt="">
+            </div>
           </div>
-          <div class="text-center col-xs-6 col-sm-1">
-
+          <div class="text-center col-xs-6 col-sm-2 col-md-1 col-lg-1">
+            <div class="div_img">
+              <img src="img/hashicorp.svg" alt="">
+            </div>
           </div>
-          <div class="text-center col-xs-6 col-sm-1">
-
+          <div class="text-center col-xs-6 col-sm-2 col-md-1 col-lg-1">
+            <div class="div_img">
+              <img src="img/hashicorp.svg" alt="">
+            </div>
           </div>
-          <div class="text-center col-xs-6 col-sm-1">
-
+          <div class="text-center col-xs-6 col-sm-2 col-md-1 col-lg-1">
+            <div class="div_img">
+              <img src="img/splunk.svg" alt="">
+            </div>
           </div>
           <div class="text-center col-xs-12">
             <span>View business solutions</span>
@@ -102,5 +127,10 @@
         </div>
       </div>
     </header>
+
+
+
+
+
   </body>
 </html>
