@@ -52,6 +52,23 @@
 }
 /* sezione sponsor */
 .row_sponsor{
+  /* margin: 30px 0; */
+}
+
+/* sezione griglie e tabelle */
+.row_carousel{
+  background-color: #f2ecec;
+}
+.row_carousel img{
+  width: 50%;
+}
+.row_carousel h3{
+  margin-top: 50px;
+}
+.row_carousel p{
   margin: 30px 0;
 }
-/* sezione griglie e tabelle */
+.row_carousel span{
+  display: block;
+  margin-top: 20px;
+}
