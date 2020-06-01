@@ -86,3 +86,37 @@
 .row_test_speed{
   border-bottom: 1px solid white;
 }
+
+/* sezione del secondo carousel */
+.div_carousel p{
+  margin: 20px 0;
+}
+.div_carousel img{
+  max-width: 100%;
+  height: auto;
+}
+.row_carousel_2{
+  background-color: #f5ecec;
+}
+.div_carousel{
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* sezione get started */
+.row_get_started {
+  background-color: #2a509a;
+  color: white;
+  height: 100px;
+}
+.row_get_started a{
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* sezione footer */
+.row_footer li{
+  list-style: none;
+}
