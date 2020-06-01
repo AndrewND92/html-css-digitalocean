@@ -74,24 +74,15 @@
 .row_carousel span{
   display: block;
   margin-top: 20px;
+  line-height: 50px;
 }
-/* sezione test peed nazioni */
+
+/* sezione test speed nazioni */
 .row_nations{
   background-color: #2a509a;
+  color: white;
 }
-.nations{
-  padding:10px;
+
+.row_test_speed{
   border-bottom: 1px solid white;
-}
-.nations h5{
-  display: inline;
-  font-weight: bold;
-  padding-right: 40px;
-  color: white;
-}
-.nations span{
-  color: white;
-}
-.nations a {
-  padding-left: 100px;
 }
