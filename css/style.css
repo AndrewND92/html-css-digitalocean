@@ -117,6 +117,12 @@
 }
 
 /* sezione footer */
+.row_footer{
+  background-color: #093679;
+
+  color: white;
+}
 .row_footer li{
   list-style: none;
+  color:#2b7793;
 }
